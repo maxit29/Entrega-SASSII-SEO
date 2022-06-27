@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(https://fondosmil.com/fondo/26735.jpg);
+  background-attachment: fixed; }
+
+.navbar {
+  background-color: #363062 !important; }
+  .navbar .container-fluid .navbar-brand {
+    animation-name: girando;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; }
+  .navbar .container-fluid div .navbar-nav .nav-item .nav-link {
+    font-size: 1.4rem;
+    border: solid 2px #827397;
+    margin: 3px;
+    transition: .5s;
+    color: white; }
+    .navbar .container-fluid div .navbar-nav .nav-item .nav-link:hover {
+      background-color: #827397;
+      color: white;
+      transform: scale(1.4); }
+
+.header {
+  text-align: center;
+  color: black;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4em; }
+  .header .container .row .col-12 h1 {
+    font-size: 3em;
+    font-weight: bold; }
+  .header .container .row .col-12 .separador {
+    height: 4px;
+    background-color: #363062; }
+  .header .container .row .col-12 p {
+    border-radius: 10px;
+    max-width: 50%;
+    color: black;
+    margin: auto;
+    font-size: 1.2rem;
+    background-color: white;
+    opacity: 0.4;
+    font-weight: 800; }
+
+.mainIndx .container .row div .pSize2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4.4em;
+  border: solid black 2px; }
+
+.mainIndx .container .row div .imgSize1 {
+  width: 40em; }
+
+.mainIndx .container .row div a .buttonStyle {
+  font-size: 2em;
+  background-image: linear-gradient(to left, #4D4C7D, #827397);
+  color: black;
+  background-color: #E9D5CA;
+  border-radius: 35px;
+  padding: 1em;
+  font-weight: bold;
+  transition: 1s;
+  margin-left: 450px;
+  margin-bottom: 2em; }
+  .mainIndx .container .row div a .buttonStyle:hover {
+    font-size: 2em;
+    background-color: #d10d69;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2); }
+
+.footer {
+  flex-direction: column;
+  display: flex;
+  background-color: #827397;
+  align-items: center;
+  text-align: center; }
+  .footer .divFooterMod1 {
+    margin-right: 3em; }
+    .footer .divFooterMod1 p {
+      font-size: 1em;
+      margin-bottom: 1em;
+      color: white;
+      font-weight: 700; }
+    .footer .divFooterMod1 a img {
+      width: 40px; }
+    .footer .divFooterMod1 img {
+      width: 100px;
+      animation-name: girando;
+      animation-duration: 4s;
+      animation-iteration-count: infinite; }

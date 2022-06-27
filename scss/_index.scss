@@ -1,0 +1,122 @@
+.header {
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+
+    .container {
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 3em;
+                    font-weight: bold;
+                }
+
+                .separador {
+                    height: 4px;
+                    background-color: #363062;
+                }
+
+                p {
+                    border-radius: 10px;
+                    max-width: 50%;
+                    color: rgb(0, 0, 0);
+
+                    margin: auto;
+                    font-size: 1.2rem;
+                    background-color: white;
+                    opacity: 0.4;
+                    font-weight: 800;
+
+                }
+            }
+        }
+    }
+}
+
+.mainIndx {
+    .container {
+        .row {
+            div {
+                .pSize2 {
+                    font-size: 1.8em;
+                    font-weight: 700;
+                    text-align: center;
+                    margin-top: 4.4em;
+
+                    border: solid black 2px;
+
+                }
+
+                .imgSize1 {
+                    width: 40em;
+
+                }
+            }
+
+            div {
+                a {
+                    .buttonStyle {
+                        font-size: 2em;
+                        background-image: linear-gradient(to left, #4D4C7D, #827397);
+                        color: rgb(0, 0, 0);
+                        background-color: #E9D5CA;
+                        border-radius: 35px;
+                        padding: 1em;
+                        font-weight: bold;
+                        transition: 1s;
+                        margin-left: 450px;
+                        margin-bottom: 2em;
+
+                        &:hover {
+                            font-size: 2em;
+                            background-color: rgb(209, 13, 105);
+                            color: white;
+                            cursor: pointer;
+                            transform: scale(1.2);
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+.footer {
+    flex-direction: column;
+    display: flex;
+    background-color: #827397;
+    align-items: center;
+    text-align: center;
+
+
+    .divFooterMod1 {
+        margin-right: 3em;
+
+        p {
+            font-size: 1em;
+            margin-bottom: 1em;
+            color: white;
+            font-weight: 700;
+
+        }
+
+        a {
+            img {
+                width: 40px;
+            }
+        }
+
+        img {
+            width: 100px;
+            animation-name: girando;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    }
+}

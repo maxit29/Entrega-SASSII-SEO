@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://fondosmil.com/fondo/26735.jpg);
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #363062 !important;
+
+    .container-fluid {
+        .navbar-brand {
+            animation-name: girando;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        div .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 1.4rem;
+                    border: solid 2px #827397;
+                    margin: 3px;
+                    transition: .5s;
+                    color: white;
+
+                    &:hover {
+                        background-color: #827397;
+                        color: white;
+                        transform: scale(1.4);
+                    }
+                }
+            }
+        }
+    }
+}
