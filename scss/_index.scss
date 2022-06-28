@@ -87,36 +87,3 @@
 
     
 }
-.footer {
-    flex-direction: column;
-    display: flex;
-    background-color: #827397;
-    align-items: center;
-    text-align: center;
-
-
-    .divFooterMod1 {
-        margin-right: 3em;
-
-        p {
-            font-size: 1em;
-            margin-bottom: 1em;
-            color: white;
-            font-weight: 700;
-
-        }
-
-        a {
-            img {
-                width: 40px;
-            }
-        }
-
-        img {
-            width: 100px;
-            animation-name: girando;
-            animation-duration: 4s;
-            animation-iteration-count: infinite;
-        }
-    }
-}

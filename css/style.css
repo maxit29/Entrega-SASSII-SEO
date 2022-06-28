@@ -106,27 +106,6 @@ body {
     cursor: pointer;
     transform: scale(1.2); }
 
-.footer {
-  flex-direction: column;
-  display: flex;
-  background-color: #827397;
-  align-items: center;
-  text-align: center; }
-  .footer .divFooterMod1 {
-    margin-right: 3em; }
-    .footer .divFooterMod1 p {
-      font-size: 1em;
-      margin-bottom: 1em;
-      color: white;
-      font-weight: 700; }
-    .footer .divFooterMod1 a img {
-      width: 40px; }
-    .footer .divFooterMod1 img {
-      width: 100px;
-      animation-name: girando;
-      animation-duration: 4s;
-      animation-iteration-count: infinite; }
-
 .mainMaterias .container .row .col-12 .titleMaterias {
   font-size: 3em;
   font-weight: 800;
@@ -158,7 +137,7 @@ body {
     .mainMaterias .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
       color: #4D4C7D; }
 
-.mainAgenda .container .row .col-12 .focusH1Style {
+.mainAgenda .container .row .col-12 .focusH1Style, .mainAgenda .container .row .col-12 .titleMaterias {
   font-size: 3em;
   font-weight: 800;
   margin-top: 1em;
@@ -190,13 +169,8 @@ body {
       border: solid #363062 2px; }
 
 .mainAgenda .titleMaterias {
-  font-size: 3em;
   font-weight: 800;
-  margin-top: 1em;
-  margin-bottom: .5em;
-  max-width: 100%;
-  text-align: center;
-  opacity: 0.9; }
+  color: #363062; }
 
 .mainAgenda .container .row .centerDiv1 {
   text-align: center; }
@@ -238,7 +212,7 @@ body {
     .mainAgenda .container .row .centerDiv1 .section2 img {
       width: 700px; }
 
-.focusH1Style {
+.focusH1Style, .mainAgenda .titleMaterias {
   font-size: 3em;
   font-weight: 800;
   margin-top: 1em;
@@ -257,7 +231,7 @@ body {
   .mainContacto .container .section4 h1 {
     font-size: 2em;
     margin-bottom: 1em; }
-    .mainContacto .container .section4 h1 .focusH1Style {
+    .mainContacto .container .section4 h1 .focusH1Style, .mainContacto .container .section4 h1 .mainAgenda .titleMaterias, .mainAgenda .mainContacto .container .section4 h1 .titleMaterias {
       font-size: 3em;
       font-weight: 800;
       margin-top: 1em;
@@ -356,7 +330,7 @@ body {
   .section1 article table {
     width: 100px; }
   /* CONTACTO STYLE */
-  .focusH1Style {
+  .focusH1Style, .mainAgenda .titleMaterias {
     padding: 0px;
     margin: auto; }
   .pSize1 {
