@@ -7,7 +7,7 @@ body {
     background-image: url(https://fondosmil.com/fondo/26735.jpg);
     background-attachment: fixed;
 }
-
+// NAVBAR
 .navbar {
     background-color: #363062 !important;
 
@@ -35,5 +35,58 @@ body {
                 }
             }
         }
+    }
+}
+// FOOTER
+.footer {
+    flex-direction: column;
+    display: flex;
+    background-color: #827397;
+    align-items: center;
+    text-align: center;
+
+
+    .divFooterMod1 {
+        margin-right: 3em;
+
+        p {
+            font-size: 1em;
+            margin-bottom: 1em;
+            color: white;
+            font-weight: 700;
+
+        }
+
+        a {
+            img {
+                width: 40px;
+            }
+        }
+
+        img {
+            width: 100px;
+            animation-name: girando;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+/* KEYFRAMES */
+@keyframes girando {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
