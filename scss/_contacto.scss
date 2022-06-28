@@ -1,0 +1,142 @@
+.mainContacto {
+    .container {
+        .section4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 10em;
+            margin-right: 10em;
+
+            h1 {
+                font-size: 2em;
+                margin-bottom: 1em;
+
+                .focusH1Style {
+                    font-size: 3em;
+                    font-weight: 800;
+                    margin-top: 1em;
+                    margin-bottom: .5em;
+                    max-width: 100%;
+                    text-align: center;
+                    opacity: 0.9;
+                }
+            }
+
+            div {
+                .pSize1 {
+                    font-size: 1.2em;
+                    font-weight: 600;
+                    text-align: center;
+                    margin-left: 1.5em;
+                    margin-bottom: 1em;
+                    border: solid #363062 2px;
+                    background-color: white;
+                    color: black;
+                    opacity: 0.8;
+                }
+            }
+
+            .container {
+                .row {
+                    div {
+                        .articleMod3 {
+                            display: flex;
+
+                            text-align: left;
+                            margin-top: 3em;
+
+                            .formMod {
+                                display: flex;
+                                flex-direction: column;
+                                max-width: 18em;
+                                text-align: left;
+                                align-items: center;
+                                margin-right: 3em;
+                                font-size: 20px;
+                                font-weight: 700;
+
+                                .textMargEdit2 {
+                                    margin-top: 1em;
+                                    margin-bottom: 1em;
+                                    font-size: 1.6em;
+                                }
+
+                                input {
+                                    border: solid 2px black;
+                                    border: solid 2px black;
+                                    border-radius: 10px;
+                                    font-size: 1em;
+                                    transition: .5s;
+
+                                    &:focus {
+                                        transform: scale(1.2);
+                                        border-color: #363062;
+                                    }
+
+                                    &::placeholder {
+                                        text-align: center;
+                                    }
+                                }
+
+                                .textMargEdit {
+                                    margin-top: 1em;
+                                    margin-bottom: 1em;
+                                }
+
+                                select {
+                                    border: solid 2px black;
+                                    border-radius: 10px;
+                                    font-size: 1em;
+                                    margin-bottom: 1em;
+                                    text-align: center;
+                                }
+
+                                textarea {
+                                    margin-top: 1em;
+                                    margin-bottom: 1em;
+                                    border: solid 2px black;
+                                    border-radius: 10px;
+                                }
+
+                                .buttonStyle2 {
+                                    margin-top: 2em;
+                                    font-size: 1em;
+                                    background-color: none;
+                                    color: rgb(0, 0, 0);
+                                    background-color: #E9D5CA;
+                                    border-radius: 20px;
+                                    padding: 1em;
+                                    font-weight: bold;
+                                    margin-bottom: 1em;
+                                    transition: 1s;
+
+                                    &:hover {
+                                        font-size: 1em;
+                                        background-color: rgb(209, 13, 105);
+                                        color: white;
+                                        cursor: pointer;
+                                        transform: scale(1.2);
+
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    div {
+                        .imgSize2Contact {
+                            width: 300px;
+                            margin-left: 25em;
+                            margin-top: 10em;
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
