@@ -1,0 +1,78 @@
+.mainMaterias {
+    .container {
+        .row {
+            .col-12 {
+                .titleMaterias {
+                    font-size: 3em;
+                    font-weight: 800;
+                    margin-top: 1em;
+                    margin-bottom: .5em;
+                    max-width: 100%;
+                    text-align: center;
+                    opacity: 0.9;
+                }
+
+                .separador {
+                    height: 4px;
+                    background-color: #363062;
+                }
+            }
+        }
+    }
+    .accordion{
+        max-width: 80%;
+        text-align: center;
+        opacity: 0.8;
+        margin: auto;
+        --bs-accordion-bg: #363062;
+        --bs-accordion-color: white;
+        --bs-accordion-btn-color: #ffffff;
+        .accordion-item{
+            .accordion-header{
+                .accordion-button{
+                    align-items: center;
+                    flex-direction: column;
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    &:focus{border-color: #363062;}
+                    &:not(.collapsed){
+                        color: #4D4C7D;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer {
+    flex-direction: column;
+    display: flex;
+    background-color: #827397;
+    align-items: center;
+    text-align: center;
+
+
+    .divFooterMod1 {
+        margin-right: 3em;
+
+        p {
+            font-size: 1em;
+            margin-bottom: 1em;
+            color: white;
+            font-weight: 700;
+
+        }
+
+        a {
+            img {
+                width: 40px;
+            }
+        }
+
+        img {
+            width: 100px;
+            animation-name: girando;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
