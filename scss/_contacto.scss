@@ -1,3 +1,12 @@
+$marginTop: 1em;
+$marginBot:1em;
+$border: solid 2px black;
+
+@mixin marginTb($marginTop, $marginBot) {
+    margin-top: $marginTop;
+    margin-bottom: $marginBot;
+}
+
 .mainContacto {
     .container {
         .section4 {
@@ -13,10 +22,10 @@
                 margin-bottom: 1em;
 
                 .focusH1Style {
+                    @include marginTb($marginTop, $marginBot);
                     font-size: 3em;
                     font-weight: 800;
-                    margin-top: 1em;
-                    margin-bottom: .5em;
+                    
                     max-width: 100%;
                     text-align: center;
                     opacity: 0.9;
@@ -57,14 +66,13 @@
                                 font-weight: 700;
 
                                 .textMargEdit2 {
-                                    margin-top: 1em;
-                                    margin-bottom: 1em;
+                                    @include marginTb($marginTop, $marginBot);
                                     font-size: 1.6em;
                                 }
 
                                 input {
-                                    border: solid 2px black;
-                                    border: solid 2px black;
+                                    border: $border;
+                                   
                                     border-radius: 10px;
                                     font-size: 1em;
                                     transition: .5s;
@@ -80,12 +88,11 @@
                                 }
 
                                 .textMargEdit {
-                                    margin-top: 1em;
-                                    margin-bottom: 1em;
+                                    @include marginTb($marginTop, $marginBot);
                                 }
 
                                 select {
-                                    border: solid 2px black;
+                                    border: $border;
                                     border-radius: 10px;
                                     font-size: 1em;
                                     margin-bottom: 1em;
@@ -95,7 +102,7 @@
                                 textarea {
                                     margin-top: 1em;
                                     margin-bottom: 1em;
-                                    border: solid 2px black;
+                                    border: $border;
                                     border-radius: 10px;
                                 }
 
