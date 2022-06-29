@@ -232,10 +232,10 @@ body {
     font-size: 2em;
     margin-bottom: 1em; }
     .mainContacto .container .section4 h1 .focusH1Style, .mainContacto .container .section4 h1 .mainAgenda .titleMaterias, .mainAgenda .mainContacto .container .section4 h1 .titleMaterias {
+      margin-top: 1em;
+      margin-bottom: 1em;
       font-size: 3em;
       font-weight: 800;
-      margin-top: 1em;
-      margin-bottom: .5em;
       max-width: 100%;
       text-align: center;
       opacity: 0.9; }
@@ -267,7 +267,6 @@ body {
         margin-bottom: 1em;
         font-size: 1.6em; }
       .mainContacto .container .section4 .container .row div .articleMod3 .formMod input {
-        border: solid 2px black;
         border: solid 2px black;
         border-radius: 10px;
         font-size: 1em;
