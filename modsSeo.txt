@@ -1,0 +1,13 @@
+1) Se asigno un título único para describir cada una de las páginas.
+2) Se agrego etiqueta meta-description para describir de manera concreta el temario de cada pagina que componen al proyecto.
+3) Se utilziaron distintos tamaños de encabezado, asi como etiquetas strong y em para dar jerarquia a los distintos textos.
+4) Se agrego ID en index para redirigir a lo importante(boton principal en index vinculado mediante enlace)
+5) Se estructuro carpeta pages para estructurar contenido especifico, dejando como pagina principal el index.
+6) El logo redirige a index en todas las secciones
+7) Se agrego sitemap para dar jerarquia a paginas y que el anvegador entienda como se orienta el proyecto
+8) Imagenes sin texto 
+9) Se organiza contenido para usuario
+10) Se adapto imagen para dispositivos moviles 
+
+
+
