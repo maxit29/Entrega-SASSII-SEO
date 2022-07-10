@@ -335,7 +335,7 @@ body {
   .pSize1 {
     width: 300px;
     margin: auto;
-    margin-right: 3em; }
+    margin-right: 1em; }
   .section4 {
     align-items: center; }
   .container section iframe {
@@ -355,7 +355,17 @@ body {
     align-items: center;
     text-align: center; }
   .tablaStyle {
-    width: 20px; } }
+    width: 20px;
+    margin: 0px;
+    max-width: 200px; }
+  .mainAgenda .tablaStyle .row .col-12 table {
+    width: 450px; }
+  .imgNone {
+    display: none; }
+  .footer .divFooterMod1 {
+    margin-right: 0em; }
+  .mainContacto .container .section4 .container .row div .articleMod3 .formMod {
+    margin-right: 4.8em; } }
 
 @media (max-width: 1200px) {
   .imgSize2Contact {
